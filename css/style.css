@@ -33,7 +33,7 @@
 }
 
 #reklama {
-    float: right;
+    float: left;
     width: 263px;
 }
 
@@ -64,4 +64,11 @@
     height: 28px;
     background-image: url("../image/footer.jpg");
     background-repeat: repeat-x;
+}
+body {
+    margin: 0;
+    margin-left: 50%;
+}
+#main {
+    margin-left: -400px;
 }
